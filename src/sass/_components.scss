@@ -1,0 +1,53 @@
+.fa-clipboard {
+  font-size: 40px;
+}
+
+.input-field {
+  width: 350px;
+}
+
+.tasks-checkbox {
+  height: 1.3rem;
+  width: 1.3rem;
+}
+
+.form-list-container {
+  width: 350px;
+}
+
+.tasks-label {
+  vertical-align: middle;
+  display: inline-block;
+}
+
+.delete-button {
+  display: flex;
+  padding-bottom: 8px;
+  align-items: center;
+  justify-content: center;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: red;
+  border: none;
+  color: white;
+  font-size: 35px;
+  transform: rotate(45deg);
+}
+
+.add-btn {
+  margin-top: 10px;
+  width: 80px;
+  background-color: aqua;
+  border: 1px solid;
+  border-radius: 8px;
+}
+
+.day-button {
+  position: absolute;
+  top: 9%;
+  right: 10%;
+  background-color: purple;
+  color: white;
+  border-radius: 8px;
+}

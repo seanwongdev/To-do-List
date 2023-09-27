@@ -6,11 +6,44 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" href="src/sass/main.scss" />
     <script type="module" src="src/js/controller.js"></script>
-
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v6.1.2/css/all.css"
+    />
     <title>No-Frills-To-Do-List</title>
   </head>
 
   <body>
-    Hello this is my to-do-list page
+    <div class="d-flex flex-column align-items-center">
+      <button class="day-button">New Day</button>
+      <div class="container mt-5 d-flex justify-content-center">
+        <h1>My Daily No-Frills To-Do List</h1>
+      </div>
+      <div class="text-center">
+        <i class="fa-regular fa-clipboard"></i>
+      </div>
+      <div class="form-list-container">
+        <div class="list-container d-flex flex-column mt-4">
+          <!-- <div class="d-flex justify-content-between align-items-center">
+            <label class="d-flex align-items-center mt-1">
+              <input type="checkbox" class="tasks-checkbox" />
+              <span class="ms-2">cook dinner</span>
+            </label>
+            <button class="delete-button">+</button>
+          </div> -->
+        </div>
+
+        <div class="text-center mt-3">
+          <form class="add-form">
+            <input
+              type="text"
+              class="input-field"
+              placeholder="Add Your Tasks..."
+            />
+            <button class="add-btn">Add</button>
+          </form>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
