@@ -7,4 +7,5 @@ This is a JavaScript project done without any frameworks to practice concepts le
 Getting Started
 
 npm run start
+
 Open http://localhost:1234 with your browser to see the result.
