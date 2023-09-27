@@ -3,13 +3,10 @@ class TaskView {
   _data;
 
   render(data) {
-    if (!data || (Array.isArray(data) && data.length === 0)) return;
-
     this._data = data;
     const markup = this._generateMarkup();
 
     this._clear();
-    console.log(markup);
 
     this._parentElement.insertAdjacentHTML("beforeend", markup);
   }
@@ -22,13 +19,14 @@ class TaskView {
     return this._data
       .map(
         (
-          result
+          result,
+          id
         ) => `<div class="d-flex justify-content-between align-items-center">
     <label class="d-flex align-items-center mt-1">
       <input type="checkbox" class="tasks-checkbox" />
       <span class="ms-2">${result}</span>
     </label>
-    <button class="delete-button">+</button>
+    <button class="delete-button" data-delete-at="${id}">+</button>
   </div>`
       )
       .join("");

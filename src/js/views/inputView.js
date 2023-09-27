@@ -14,7 +14,7 @@ class InputView {
 
   getInput() {
     const input = this._parentElement.querySelector(".input-field").value;
-    console.log(input);
+
     this._clearInput();
     return input;
   }
