@@ -1,4 +1,4 @@
-**This is a JavaScript project done without any frameworks to practice concepts learnt.**
+**This is a JavaScript mini project done without any frameworks to practice concepts learnt.**
 - Reinforcing MVC model from scratch
 - Making use of publisher-subscriber pattern between controller and views
 - Use of advanced DOM, with some event propagation and delegation
