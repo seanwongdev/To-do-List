@@ -5,8 +5,8 @@
 - Localstorage to save the data between page reloads
 
 **Getting Started**
-since you need parcel for this.. just run 
-1. "npm parcel install -D"  # to install parcel
-2. npm run start # to start the localhost
+since you need parcel for this.. just run in your terminal
+1. "npm parcel install -D"  
+2. "npm run start"  
 
 Open http://localhost:1234 with your browser to see the result.
